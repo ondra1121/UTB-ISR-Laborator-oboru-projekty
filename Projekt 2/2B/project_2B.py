@@ -3,8 +3,10 @@ import math
 #Nastavení HOME (domácí) pozice + HOME robota (je to zakomentované, aby to nedělal při každém spuštění kódu)
 dType.SetHOMEParams(api,  230,  0,  0,  -25,  isQueued=0)
 #dType.SetHOMECmd(api, 1, isQueued=0)
+
 #Nastavení JUMP parametrů, aby rameno nenaráželo do ostatních kostek a nemuselo se procházet přes další bod
 dType.SetPTPJumpParams(api, 80, 200, isQueued=0)
+
 #Posunutí robota do HOME pozice, aby se vrátil do ideální polohy + 1,5 sekundy delay, abychom mohli nachystat kostkya zkontrolovat jestli je vše OK
 dType.SetPTPCmd(api, 1, 230, 0, 0, -25, isQueued=0)
 dType.SetWAITCmd(api, 1500, isQueued=0)
@@ -41,6 +43,7 @@ pos_r_kostaka4 = -20
 
 #Nekonečná smyčka
 While (true):
+
   #Posunutí robota na pozici úchopu první kostky
   dType.SetPTPCmd(api, 0, pos_x_kostaka1, pos_y_kostaka1, pos_z_kostaka1, pos_r_kostaka1, isQueued=0)
   #Zapnutí vývěvy k chycení kostky
