@@ -10,7 +10,7 @@ dType.SetPTPCmd(api, 1, 230, 0, 0, -25, isQueued=0)
 dType.SetWAITCmd(api, 1500, isQueued=0)
 
 #Určení výšky kostky pro následné přičtení při stavbě věže
-vyska_kostky = 25
+vyska_kostky = 23
 
 #Nastavení pozice kde se bude stavět věž
 pos_z_vez_kostaka = -35
