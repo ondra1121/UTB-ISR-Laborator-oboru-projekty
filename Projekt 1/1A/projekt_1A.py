@@ -10,6 +10,7 @@ dType.SetWAITCmd(api, 1500, isQueued=0)
 
 #Určení výšky pro kreslení na papír
 vyska_papiru_z = -54
+
 #deklarování proměné pro while loop
 i=0
 while i < 51:
