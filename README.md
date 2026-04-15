@@ -18,7 +18,7 @@ F: <20 bodů</br>
 - [X] B. Stavba věže v nekonečném cyklu (10 bodů)
 - [ ] C. Stavba věže s využitím kamery (20 bodů)
 3. [Třídění kostek](https://github.com/ondra1121/UTB-ISR-Laborator-oboru-projekty/tree/main/Projekt%203)
-- [ ] A. Podle barvy pomocí senzoru (5 bodů)
+- [X] A. Podle barvy pomocí senzoru (5 bodů)
 - [ ] B. Z dopravníku pomocí senzoru (10 bodů)
 4. [Spolupráce více robotických ramen](https://github.com/ondra1121/UTB-ISR-Laborator-oboru-projekty/tree/main/Projekt%204)
 - [ ] A. Dopravníkové pásy (20 bodů)
