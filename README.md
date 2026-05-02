@@ -16,7 +16,7 @@ F: <20 bodů</br>
 2. [Úkoly se stavbou kostek](https://github.com/ondra1121/UTB-ISR-Laborator-oboru-projekty/tree/main/Projekt%202)
 - [X] A. Stavba věže (5 bodů)
 - [X] B. Stavba věže v nekonečném cyklu (10 bodů)
-- [ ] C. Stavba věže s využitím kamery (20 bodů)
+- [X] C. Stavba věže s využitím kamery (20 bodů)
 3. [Třídění kostek](https://github.com/ondra1121/UTB-ISR-Laborator-oboru-projekty/tree/main/Projekt%203)
 - [X] A. Podle barvy pomocí senzoru (5 bodů)
 - [ ] B. Z dopravníku pomocí senzoru (10 bodů)
