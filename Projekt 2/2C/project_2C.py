@@ -18,7 +18,7 @@ def detect_squares(frame):
         11, 2
     )
 
-    # morfologie (lepší kontury)
+    # lepší rozpoznatelnost
     kernel = np.ones((3,3), np.uint8)
     thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
 
@@ -55,10 +55,10 @@ def detect_squares(frame):
 
             detected_centers.append((cx, cy))
 
-            # 🎨 barva ve středu (BGR)
+            # barva ve středu
             b, g, r = img[cy, cx]
 
-            # 🟥🟩🟦 klasifikace barvy
+            # klasifikace barvy
             if r > g and r > b:
                 color = "red"
             elif g > r and g > b:
