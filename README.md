@@ -1,5 +1,6 @@
 # UTB-ISR-Laborator-oboru-projekty
-Jedná se projekty do předmětu Laboratoř oborz UTB FAI letní semestr 2026.</br>
+Jedná se projekty do předmětu Laboratoř oboru UTB FAI letní semestr 2026.</br>
+Je zde i složka s anglickým překladem pluginu do VS code s návodem.</br>
 Počty potřebných bodů pro konkrétní známky:
 
 A: 55 + bodů</br>
@@ -24,6 +25,6 @@ F: <20 bodů</br>
 - [ ] A. Dopravníkové pásy (20 bodů)
 - [ ] B. Lineární pojezdy (20 bodů)
 5. [Bludiště](https://github.com/ondra1121/UTB-ISR-Laborator-oboru-projekty/tree/main/Projekt%205)
-- [ ] A. Manuální navádění robota (5 bodů)
+- [X] A. Manuální navádění robota (5 bodů)
 - [ ] B. line-following (15 bodů)
 - [ ] C. Automatické řešení (20 bodů)
